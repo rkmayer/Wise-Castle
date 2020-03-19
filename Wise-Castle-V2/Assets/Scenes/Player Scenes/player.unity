@@ -694,6 +694,7 @@ GameObject:
   - component: {fileID: 570008930}
   - component: {fileID: 570008933}
   - component: {fileID: 570008934}
+  - component: {fileID: 570008935}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -791,6 +792,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInfoPoints: {fileID: 1570696315}
+--- !u!114 &570008935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570008929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa58f37d3b2d9524eab4feeb4bc6a9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body_1: {fileID: 21300000, guid: f416023f294f04182a85d6f3a445fcad, type: 3}
+  body_2: {fileID: 21300000, guid: 5d871ae08ec1742feb68c9258929dc94, type: 3}
+  body_3: {fileID: 21300000, guid: 5da57fd377b0d4c87b920d5f109724ca, type: 3}
+  body_4: {fileID: 21300000, guid: e68cc0eb9399b4fd888eb7f91be774df, type: 3}
+  body_5: {fileID: 21300000, guid: e97536b593abb4af49f9b3b87af3b8a5, type: 3}
+  eyes_1: {fileID: 21300000, guid: 9f8ede43c1c4447fd8d70fe0af34a2fd, type: 3}
+  eyes_2: {fileID: 21300000, guid: a25081ecf713240c18a5cb62af5b7343, type: 3}
+  eyes_3: {fileID: 21300000, guid: fcbaa78a3275847428b8fe2c3bd7454b, type: 3}
+  eyes_4: {fileID: 21300000, guid: d137f5edbb7dc48f19d1fed06b9f4ece, type: 3}
+  hair_1: {fileID: 21300000, guid: 08694e9d7bcb54f17aad62561a783fa2, type: 3}
+  mouth_1: {fileID: 21300000, guid: e95e7fe6e1ce643dab4f85f2aabd6a95, type: 3}
+  mouth_2: {fileID: 21300000, guid: 7d2e256b8209041c591c8da53acedd40, type: 3}
+  sprite_body: {fileID: 323360075}
+  sprite_eyes: {fileID: 1880539650}
+  sprite_hair: {fileID: 563897072}
+  sprite_mouth: {fileID: 1563984757}
+  body1: {fileID: 0}
+  body2: {fileID: 0}
+  body3: {fileID: 0}
+  body4: {fileID: 0}
+  body5: {fileID: 0}
+  eyes1: {fileID: 0}
+  eyes2: {fileID: 0}
+  eyes3: {fileID: 0}
+  eyes4: {fileID: 0}
+  hair1: {fileID: 0}
+  mouth1: {fileID: 0}
+  mouth2: {fileID: 0}
 --- !u!1 &925391275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,7 +2254,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2089495300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 570008933}
+        m_MethodName: LoadEditPlayerScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &2089495300
 MonoBehaviour:
   m_ObjectHideFlags: 0
