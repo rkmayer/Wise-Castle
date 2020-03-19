@@ -2659,6 +2659,7 @@ GameObject:
   - component: {fileID: 1628355879}
   - component: {fileID: 1628355878}
   - component: {fileID: 1628355881}
+  - component: {fileID: 1628355882}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2743,6 +2744,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454068fb547829c489e48ef86803d30f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1628355882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628355877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc3978219ccdb140b21bb4b233d7715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robe1grey: {fileID: 44154196}
+  robe1red: {fileID: 61823415}
+  robe1blue: {fileID: 950319633}
+  robe1green: {fileID: 175581038}
+  robe1orange: {fileID: 744378737}
+  robe1purple: {fileID: 738267342}
+  robe2grey: {fileID: 1209005902}
+  robe2red: {fileID: 841456408}
+  robe2blue: {fileID: 701204644}
+  robe2green: {fileID: 1322270716}
+  robe2orange: {fileID: 1917571516}
+  robe2purple: {fileID: 558293541}
+  robe3grey: {fileID: 452017405}
+  robe3red: {fileID: 466086837}
+  robe3blue: {fileID: 252497343}
+  robe3green: {fileID: 832334558}
+  robe3orange: {fileID: 611998276}
+  robe3purple: {fileID: 1781109553}
+  robe1price: 25
+  robe2price: 50
+  robe3price: 100
 --- !u!1 &1781109551
 GameObject:
   m_ObjectHideFlags: 0

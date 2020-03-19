@@ -75,8 +75,6 @@ public class HatShopScript : MonoBehaviour
 		hat3blue.onClick.AddListener(() => buyItem("hat3blue", hat3price, hat3blue));
 		hat3pink.onClick.AddListener(() => buyItem("hat3pink", hat3price, hat3pink));
 		hat3purple.onClick.AddListener(() => buyItem("hat3purple", hat3price, hat3purple));
-		
-		
     }
 	
 	//buy item function
