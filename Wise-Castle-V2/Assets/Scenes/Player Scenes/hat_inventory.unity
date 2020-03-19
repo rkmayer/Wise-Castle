@@ -1266,7 +1266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 1.66}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &824296695
@@ -1309,7 +1309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 9.58}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &851876134
@@ -2800,6 +2800,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c3165402acbdb4f8e3d8c22081032d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  emptySlot: {fileID: 21300000, guid: bbe8aa24df96c8649bd2e731549e4acb, type: 3}
+  hat1black: {fileID: 1061016297}
+  hat1white: {fileID: 1752606674}
+  hat1red: {fileID: 433906663}
+  hat1yellow: {fileID: 1521033563}
+  hat1green: {fileID: 299342011}
+  hat1blue: {fileID: 1703295708}
+  hat1pink: {fileID: 1997282351}
+  hat1purple: {fileID: 874933526}
+  hat2black: {fileID: 459936605}
+  hat2white: {fileID: 421208429}
+  hat2red: {fileID: 1055222879}
+  hat2yellow: {fileID: 1859618641}
+  hat2green: {fileID: 621793267}
+  hat2blue: {fileID: 671897960}
+  hat2pink: {fileID: 966554850}
+  hat2purple: {fileID: 851876136}
+  hat3black: {fileID: 1136209935}
+  hat3white: {fileID: 291104681}
+  hat3red: {fileID: 1672670312}
+  hat3yellow: {fileID: 1436124886}
+  hat3green: {fileID: 1101794934}
+  hat3blue: {fileID: 1825824772}
+  hat3pink: {fileID: 1219189177}
+  hat3purple: {fileID: 622343764}
+  hat1black_sprite: {fileID: 21300000, guid: 8686b82e00aef2b48bc7d882a1e983cf, type: 3}
+  hat1white_sprite: {fileID: 21300000, guid: 11132ffc5d2e0a244933c8628e22aaf5, type: 3}
+  hat1red_sprite: {fileID: 21300000, guid: c8d28dd8034fac341bbb07bbbee23803, type: 3}
+  hat1yellow_sprite: {fileID: 21300000, guid: e113bc0c0972f494faf91a3c7fbf63c0, type: 3}
+  hat1green_sprite: {fileID: 21300000, guid: 94160da3c0d48eb4788d913c88e4379d, type: 3}
+  hat1blue_sprite: {fileID: 21300000, guid: 4264c5c18a07da2458a6e335472883e1, type: 3}
+  hat1pink_sprite: {fileID: 21300000, guid: ff9521fa2429cd54082234442796d44c, type: 3}
+  hat1purple_sprite: {fileID: 21300000, guid: 8c6a46e62f487954cb570535c79f8e76, type: 3}
+  hat2black_sprite: {fileID: 21300000, guid: 3c029fd511efd004a9ea68a2f3722264, type: 3}
+  hat2white_sprite: {fileID: 21300000, guid: 0999ffb621e48404b889ac10ba480556, type: 3}
+  hat2red_sprite: {fileID: 21300000, guid: 9f2deb8cf01c6aa4f8a8ddc261a2a029, type: 3}
+  hat2yellow_sprite: {fileID: 21300000, guid: 5388c284d2d9bab408a549cd109c555c, type: 3}
+  hat2green_sprite: {fileID: 21300000, guid: 682a99756b464394a97f9008bf97f39a, type: 3}
+  hat2blue_sprite: {fileID: 21300000, guid: 09fe73058a3a4ce458a1a7ab800f9d1e, type: 3}
+  hat2pink_sprite: {fileID: 21300000, guid: 4e973d1c6dd74d34c8acb21ba687aa7d, type: 3}
+  hat2purple_sprite: {fileID: 21300000, guid: 849e34f032967bb49a9eed00a768aee5, type: 3}
+  hat3black_sprite: {fileID: 21300000, guid: f37504b09c0de264eab773e0bb30213e, type: 3}
+  hat3white_sprite: {fileID: 21300000, guid: 5253ab90dfe472e41b5d0d538d6df34e, type: 3}
+  hat3red_sprite: {fileID: 21300000, guid: 631ea2cc5ef693b438803a4dcf0913e8, type: 3}
+  hat3yellow_sprite: {fileID: 21300000, guid: 8b15c3756168a604a8ca4fb2da54e657, type: 3}
+  hat3green_sprite: {fileID: 21300000, guid: daa38147bb87b024db47f9bcaf36e7b2, type: 3}
+  hat3blue_sprite: {fileID: 21300000, guid: 656c63b8a0ce475469e1239a0cd2e60b, type: 3}
+  hat3pink_sprite: {fileID: 21300000, guid: 8952de8b07c03d046b9160c43e4300ae, type: 3}
+  hat3purple_sprite: {fileID: 21300000, guid: 74e01d4bdb4d0424c945c0dd0d5dacce, type: 3}
 --- !u!1 &1672670310
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 22.22}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1859618639
