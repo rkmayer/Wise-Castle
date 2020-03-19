@@ -896,10 +896,54 @@ MonoBehaviour:
   hair_1: {fileID: 21300000, guid: 08694e9d7bcb54f17aad62561a783fa2, type: 3}
   mouth_1: {fileID: 21300000, guid: e95e7fe6e1ce643dab4f85f2aabd6a95, type: 3}
   mouth_2: {fileID: 21300000, guid: 7d2e256b8209041c591c8da53acedd40, type: 3}
+  hat1black: {fileID: 21300000, guid: 8686b82e00aef2b48bc7d882a1e983cf, type: 3}
+  hat1white: {fileID: 21300000, guid: 11132ffc5d2e0a244933c8628e22aaf5, type: 3}
+  hat1red: {fileID: 21300000, guid: c8d28dd8034fac341bbb07bbbee23803, type: 3}
+  hat1yellow: {fileID: 21300000, guid: e113bc0c0972f494faf91a3c7fbf63c0, type: 3}
+  hat1green: {fileID: 21300000, guid: 94160da3c0d48eb4788d913c88e4379d, type: 3}
+  hat1blue: {fileID: 21300000, guid: 4264c5c18a07da2458a6e335472883e1, type: 3}
+  hat1pink: {fileID: 21300000, guid: ff9521fa2429cd54082234442796d44c, type: 3}
+  hat1purple: {fileID: 21300000, guid: 8c6a46e62f487954cb570535c79f8e76, type: 3}
+  hat2black: {fileID: 21300000, guid: 3c029fd511efd004a9ea68a2f3722264, type: 3}
+  hat2white: {fileID: 21300000, guid: 0999ffb621e48404b889ac10ba480556, type: 3}
+  hat2red: {fileID: 21300000, guid: 9f2deb8cf01c6aa4f8a8ddc261a2a029, type: 3}
+  hat2yellow: {fileID: 21300000, guid: 5388c284d2d9bab408a549cd109c555c, type: 3}
+  hat2green: {fileID: 21300000, guid: 682a99756b464394a97f9008bf97f39a, type: 3}
+  hat2blue: {fileID: 21300000, guid: 09fe73058a3a4ce458a1a7ab800f9d1e, type: 3}
+  hat2pink: {fileID: 21300000, guid: 4e973d1c6dd74d34c8acb21ba687aa7d, type: 3}
+  hat2purple: {fileID: 21300000, guid: 849e34f032967bb49a9eed00a768aee5, type: 3}
+  hat3black: {fileID: 21300000, guid: f37504b09c0de264eab773e0bb30213e, type: 3}
+  hat3white: {fileID: 21300000, guid: 5253ab90dfe472e41b5d0d538d6df34e, type: 3}
+  hat3red: {fileID: 21300000, guid: 631ea2cc5ef693b438803a4dcf0913e8, type: 3}
+  hat3yellow: {fileID: 21300000, guid: 8b15c3756168a604a8ca4fb2da54e657, type: 3}
+  hat3green: {fileID: 21300000, guid: daa38147bb87b024db47f9bcaf36e7b2, type: 3}
+  hat3blue: {fileID: 21300000, guid: 656c63b8a0ce475469e1239a0cd2e60b, type: 3}
+  hat3pink: {fileID: 21300000, guid: 8952de8b07c03d046b9160c43e4300ae, type: 3}
+  hat3purple: {fileID: 21300000, guid: 74e01d4bdb4d0424c945c0dd0d5dacce, type: 3}
+  robe1grey: {fileID: 21300000, guid: 1787a0aac348c47b6a6a0d27c2bfe67e, type: 3}
+  robe1red: {fileID: 21300000, guid: 2161e7e1b367849dcb2ebadc4faabeea, type: 3}
+  robe1blue: {fileID: 21300000, guid: c434496e296f94c348e1c3d47f43a643, type: 3}
+  robe1green: {fileID: 21300000, guid: cfd016e2d56bb47ae948ee37cea9d768, type: 3}
+  robe1orange: {fileID: 21300000, guid: 8e15b63c5466945ea9b9fefc436a09e5, type: 3}
+  robe1purple: {fileID: 21300000, guid: 441110b7381294829b3279158cfc1b70, type: 3}
+  robe2grey: {fileID: 21300000, guid: 239dfc9373509469cb3284e09e2773ae, type: 3}
+  robe2red: {fileID: 21300000, guid: 305b8aa6976724ecab57f5ed8bfab26c, type: 3}
+  robe2blue: {fileID: 21300000, guid: e73543012e06f4c568c6191253a82bd6, type: 3}
+  robe2green: {fileID: 21300000, guid: e1117b34f9670457a831fa9f598ca64d, type: 3}
+  robe2orange: {fileID: 21300000, guid: d009e911172454c69aa1fa9eea5b7a14, type: 3}
+  robe2purple: {fileID: 21300000, guid: 388bb405386eb4919a81b47ffa64260e, type: 3}
+  robe3grey: {fileID: 21300000, guid: 00c1411e4b6f54c54b34fe4cdec0ac44, type: 3}
+  robe3red: {fileID: 21300000, guid: 9eaba6df4576242c7839db1081b61fb9, type: 3}
+  robe3blue: {fileID: 21300000, guid: 27bffc4f04cc54a55965889911022e2e, type: 3}
+  robe3green: {fileID: 21300000, guid: dd6fbdf1f7b034a3c987d84d23ff2b25, type: 3}
+  robe3orange: {fileID: 21300000, guid: e7cbe9d0e812a4e61a93b42c3f3a28da, type: 3}
+  robe3purple: {fileID: 21300000, guid: 03d1b4ddb83e648c7934e67a59cfc488, type: 3}
   sprite_body: {fileID: 323360075}
   sprite_eyes: {fileID: 1880539650}
   sprite_hair: {fileID: 563897072}
   sprite_mouth: {fileID: 1563984757}
+  sprite_hat: {fileID: 1065488793}
+  sprite_robe: {fileID: 955726137}
 --- !u!114 &570008936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,7 +1143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.3, y: -116.71}
+  m_AnchoredPosition: {x: 6.3, y: -113.1}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &955726139
@@ -1141,7 +1185,7 @@ SpriteRenderer:
   m_SortingLayerID: -1899311627
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 239dfc9373509469cb3284e09e2773ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 93fe3ec869ead4105b292c7a15e8053e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1178,14 +1222,14 @@ RectTransform:
   m_GameObject: {fileID: 1065488793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -4}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalScale: {x: 125, y: 125, z: 1}
   m_Children: []
   m_Father: {fileID: 1981555361}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 10}
+  m_AnchoredPosition: {x: 5.44, y: 186.4}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1065488795

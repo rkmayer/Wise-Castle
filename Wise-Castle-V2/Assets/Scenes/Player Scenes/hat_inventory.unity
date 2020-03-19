@@ -304,7 +304,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 291104682}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3white
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &291104682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,7 +432,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299342012}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1green
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &299342012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,7 +626,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 421208430}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2white
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &421208430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,7 +754,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 433906664}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1red
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &433906664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -838,7 +882,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 459936606}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2black
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &459936606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +1010,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 621793268}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2green
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &621793268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,7 +1138,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 622343765}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3purple
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &622343765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1189,7 +1266,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 671897961}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2blue
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &671897961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,7 +1480,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 851876137}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2purple
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &851876137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,7 +1608,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 874933527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1purple
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &874933527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1754,7 +1864,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 966554851}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2pink
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &966554851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1871,7 +1992,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1055222880}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2red
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1055222880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1988,7 +2120,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1061016298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1black
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1061016298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2105,7 +2248,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1101794935}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3green
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1101794935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2222,7 +2376,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1136209936}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3black
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1136209936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2339,7 +2504,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1219189178}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3pink
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1219189178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2537,7 +2713,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1436124887}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3yellow
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1436124887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2654,7 +2841,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1521033564}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1yellow
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1521033564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,6 +2902,7 @@ GameObject:
   - component: {fileID: 1629272721}
   - component: {fileID: 1629272724}
   - component: {fileID: 1629272725}
+  - component: {fileID: 1629272726}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2849,6 +3048,18 @@ MonoBehaviour:
   hat3blue_sprite: {fileID: 21300000, guid: 656c63b8a0ce475469e1239a0cd2e60b, type: 3}
   hat3pink_sprite: {fileID: 21300000, guid: 8952de8b07c03d046b9160c43e4300ae, type: 3}
   hat3purple_sprite: {fileID: 21300000, guid: 74e01d4bdb4d0424c945c0dd0d5dacce, type: 3}
+--- !u!114 &1629272726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629272720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1457f111d9d4fc848b362f483703c259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1672670310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,7 +3140,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1672670313}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3red
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1672670313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3046,7 +3268,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1703295709}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1blue
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1703295709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3163,7 +3396,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752606675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1white
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1752606675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3280,7 +3524,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1825824773}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat3blue
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1825824773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3440,7 +3695,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859618642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat2yellow
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1859618642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3557,7 +3823,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1997282352}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629272726}
+        m_MethodName: updateCharacter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hat1pink
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1997282352
 MonoBehaviour:
   m_ObjectHideFlags: 0
