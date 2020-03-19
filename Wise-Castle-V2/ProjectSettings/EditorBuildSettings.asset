@@ -62,4 +62,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Player Scenes/player_inventory.unity
     guid: 5fb259ee687e7d54b8d01dee7eb5c53f
+  - enabled: 1
+    path: Assets/Scenes/Player Scenes/animal_inventory.unity
+    guid: 659cb4fd1c5aead44ac658bb14db3782
+  - enabled: 1
+    path: Assets/Scenes/Player Scenes/hat_inventory.unity
+    guid: e0bb006ad7471884690e7ef1156440b0
+  - enabled: 1
+    path: Assets/Scenes/Player Scenes/robe_inventory.unity
+    guid: 9390ddee08479f04db0bfc2a99708085
   m_configObjects: {}

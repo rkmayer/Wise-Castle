@@ -47,6 +47,21 @@ public class SceneSwitch : MonoBehaviour
 		SceneManager.LoadScene("player_inventory");
 	}
 	
+	public void LoadHatInventory(){
+		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
+		SceneManager.LoadScene("hat_inventory");
+	}
+	
+	public void LoadRobeInventory(){
+		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
+		SceneManager.LoadScene("robe_inventory");
+	}
+	
+	public void LoadAnimalInventory(){
+		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
+		SceneManager.LoadScene("animal_inventory");
+	}
+	
 	public void LoadShopScene(){
 		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
 		SceneManager.LoadScene("shop");
