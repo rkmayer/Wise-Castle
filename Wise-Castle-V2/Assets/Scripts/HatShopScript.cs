@@ -16,6 +16,7 @@ public class HatShopScript : MonoBehaviour
 		hat2black, hat2white, hat2red, hat2yellow, hat2green, hat2blue, hat2pink, hat2purple,
 		hat3black, hat3white, hat3red, hat3yellow, hat3green, hat3blue, hat3pink, hat3purple;
 	
+	public int hat1price, hat2price, hat3price;
 	
     // Start is called before the first frame update
     void Start()
@@ -48,32 +49,32 @@ public class HatShopScript : MonoBehaviour
 		}
 		
         //listeners for all buttons
-		hat1black.onClick.AddListener(() => buyItem("hat1black", 25, hat1black));
-		hat1white.onClick.AddListener(() => buyItem("hat1white", 25, hat1white));
-		hat1red.onClick.AddListener(() => buyItem("hat1red", 25, hat1red));
-		hat1yellow.onClick.AddListener(() => buyItem("hat1yellow", 25, hat1yellow));
-		hat1green.onClick.AddListener(() => buyItem("hat1green", 25, hat1green));
-		hat1blue.onClick.AddListener(() => buyItem("hat1blue", 25, hat1blue));
-		hat1pink.onClick.AddListener(() => buyItem("hat1pink", 25, hat1pink));
-		hat1purple.onClick.AddListener(() => buyItem("hat1purple", 25, hat1purple));
+		hat1black.onClick.AddListener(() => buyItem("hat1black", hat1price, hat1black));
+		hat1white.onClick.AddListener(() => buyItem("hat1white", hat1price, hat1white));
+		hat1red.onClick.AddListener(() => buyItem("hat1red", hat1price, hat1red));
+		hat1yellow.onClick.AddListener(() => buyItem("hat1yellow", hat1price, hat1yellow));
+		hat1green.onClick.AddListener(() => buyItem("hat1green", hat1price, hat1green));
+		hat1blue.onClick.AddListener(() => buyItem("hat1blue", hat1price, hat1blue));
+		hat1pink.onClick.AddListener(() => buyItem("hat1pink", hat1price, hat1pink));
+		hat1purple.onClick.AddListener(() => buyItem("hat1purple", hat1price, hat1purple));
 		
-		hat2black.onClick.AddListener(() => buyItem("hat2black", 25, hat2black));
-		hat2white.onClick.AddListener(() => buyItem("hat2white", 25, hat2white));
-		hat2red.onClick.AddListener(() => buyItem("hat2red", 25, hat2red));
-		hat2yellow.onClick.AddListener(() => buyItem("hat2yellow", 25, hat2yellow));
-		hat2green.onClick.AddListener(() => buyItem("hat2green", 25, hat2green));
-		hat2blue.onClick.AddListener(() => buyItem("hat2blue", 25, hat2blue));
-		hat2pink.onClick.AddListener(() => buyItem("hat2pink", 25, hat2pink));
-		hat2purple.onClick.AddListener(() => buyItem("hat2purple", 25, hat2purple));
+		hat2black.onClick.AddListener(() => buyItem("hat2black", hat2price, hat2black));
+		hat2white.onClick.AddListener(() => buyItem("hat2white", hat2price, hat2white));
+		hat2red.onClick.AddListener(() => buyItem("hat2red", hat2price, hat2red));
+		hat2yellow.onClick.AddListener(() => buyItem("hat2yellow", hat2price, hat2yellow));
+		hat2green.onClick.AddListener(() => buyItem("hat2green", hat2price, hat2green));
+		hat2blue.onClick.AddListener(() => buyItem("hat2blue", hat2price, hat2blue));
+		hat2pink.onClick.AddListener(() => buyItem("hat2pink", hat2price, hat2pink));
+		hat2purple.onClick.AddListener(() => buyItem("hat2purple", hat2price, hat2purple));
 		
-		hat3black.onClick.AddListener(() => buyItem("hat3black", 25, hat3black));
-		hat3white.onClick.AddListener(() => buyItem("hat3white", 25, hat3white));
-		hat3red.onClick.AddListener(() => buyItem("hat3red", 25, hat3red));
-		hat3yellow.onClick.AddListener(() => buyItem("hat3yellow", 25, hat3yellow));
-		hat3green.onClick.AddListener(() => buyItem("hat3green", 25, hat3green));
-		hat3blue.onClick.AddListener(() => buyItem("hat3blue", 25, hat3blue));
-		hat3pink.onClick.AddListener(() => buyItem("hat3pink", 25, hat3pink));
-		hat3purple.onClick.AddListener(() => buyItem("hat3purple", 25, hat3purple));
+		hat3black.onClick.AddListener(() => buyItem("hat3black", hat3price, hat3black));
+		hat3white.onClick.AddListener(() => buyItem("hat3white", hat3price, hat3white));
+		hat3red.onClick.AddListener(() => buyItem("hat3red", hat3price, hat3red));
+		hat3yellow.onClick.AddListener(() => buyItem("hat3yellow", hat3price, hat3yellow));
+		hat3green.onClick.AddListener(() => buyItem("hat3green", hat3price, hat3green));
+		hat3blue.onClick.AddListener(() => buyItem("hat3blue", hat3price, hat3blue));
+		hat3pink.onClick.AddListener(() => buyItem("hat3pink", hat3price, hat3pink));
+		hat3purple.onClick.AddListener(() => buyItem("hat3purple", hat3price, hat3purple));
 		
 		
     }
