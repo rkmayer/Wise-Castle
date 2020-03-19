@@ -94,7 +94,11 @@ public class RobeShopScript : MonoBehaviour
 		
 		//go through buttons checking for purchase flags
 		foreach(Button button in buttons){
-			if(PlayerPrefs.GetInt(button.name, 0) == 1){
+			//set default robe to always purchased
+			if(button.name == "robe1grey"){
+				PlayerPrefs.SetInt("robe1grey", 1);
+				button.interactable = false;
+			}else if(PlayerPrefs.GetInt(button.name, 0) == 1){
 				//the item is purchased, set interactable to false
 				button.interactable = false;
 				//set image to sold out
