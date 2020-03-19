@@ -1172,6 +1172,7 @@ GameObject:
   - component: {fileID: 729897530}
   - component: {fileID: 729897529}
   - component: {fileID: 729897532}
+  - component: {fileID: 729897533}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1256,6 +1257,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454068fb547829c489e48ef86803d30f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &729897533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729897528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4980a7086d06b4c96e5697c3dda143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hat1black: {fileID: 1170288388}
+  hat1white: {fileID: 391952982}
+  hat1red: {fileID: 827107479}
+  hat1yellow: {fileID: 1331157188}
+  hat1green: {fileID: 1353413661}
+  hat1blue: {fileID: 72725612}
+  hat1pink: {fileID: 2110929196}
+  hat1purple: {fileID: 521165016}
+  hat2black: {fileID: 343760044}
+  hat2white: {fileID: 1302816896}
+  hat2red: {fileID: 231034392}
+  hat2yellow: {fileID: 2125975228}
+  hat2green: {fileID: 1033064370}
+  hat2blue: {fileID: 1117304666}
+  hat2pink: {fileID: 1735656611}
+  hat2purple: {fileID: 1353013624}
+  hat3black: {fileID: 374615635}
+  hat3white: {fileID: 671543951}
+  hat3red: {fileID: 1399431838}
+  hat3yellow: {fileID: 290730522}
+  hat3green: {fileID: 1015045896}
+  hat3blue: {fileID: 804355592}
+  hat3pink: {fileID: 906531165}
+  hat3purple: {fileID: 839759132}
 --- !u!1 &804355590
 GameObject:
   m_ObjectHideFlags: 0
