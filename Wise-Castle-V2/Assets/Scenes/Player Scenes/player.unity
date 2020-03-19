@@ -912,30 +912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eac2f91767a93cc49a7ce9868bd23309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hat1black: {fileID: 0}
-  hat1white: {fileID: 0}
-  hat1red: {fileID: 0}
-  hat1yellow: {fileID: 0}
-  hat1green: {fileID: 0}
-  hat1blue: {fileID: 0}
-  hat1pink: {fileID: 0}
-  hat1purple: {fileID: 0}
-  hat2black: {fileID: 0}
-  hat2white: {fileID: 0}
-  hat2red: {fileID: 0}
-  hat2yellow: {fileID: 0}
-  hat2green: {fileID: 0}
-  hat2blue: {fileID: 0}
-  hat2pink: {fileID: 0}
-  hat2purple: {fileID: 0}
-  hat3black: {fileID: 0}
-  hat3white: {fileID: 0}
-  hat3red: {fileID: 0}
-  hat3yellow: {fileID: 0}
-  hat3green: {fileID: 0}
-  hat3blue: {fileID: 0}
-  hat3pink: {fileID: 0}
-  hat3purple: {fileID: 0}
 --- !u!1 &675788822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 10}
+  m_AnchoredPosition: {x: 6.3, y: -116.71}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &955726139
