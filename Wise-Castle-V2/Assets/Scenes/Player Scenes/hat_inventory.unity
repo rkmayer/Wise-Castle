@@ -1627,8 +1627,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadShopScene
+      - m_Target: {fileID: 1629272724}
+        m_MethodName: LoadPlayerInventory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2703,6 +2703,7 @@ GameObject:
   - component: {fileID: 1629272722}
   - component: {fileID: 1629272721}
   - component: {fileID: 1629272724}
+  - component: {fileID: 1629272725}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2785,6 +2786,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 454068fb547829c489e48ef86803d30f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1629272725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629272720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c3165402acbdb4f8e3d8c22081032d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1672670310
