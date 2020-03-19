@@ -15,34 +15,17 @@ public class RobeShopScript : MonoBehaviour
 		robe2grey, robe2red, robe2blue, robe2green, robe2orange, robe2purple,
 		robe3grey, robe3red, robe3blue, robe3green, robe3orange, robe3purple;
 	
+	//prices
 	public int robe1price, robe2price, robe3price;
+	
+	//sold out image
+	public Sprite sold_out;
 	
     // Start is called before the first frame update
     void Start()
     {
-		//array of buttons
-		Button[] buttons = {robe1grey, robe1red, robe1blue, robe1green, robe1orange, robe1purple,
-		robe2grey, robe2red, robe2blue, robe2green, robe2orange, robe2purple,
-		robe3grey, robe3red, robe3blue, robe3green, robe3orange, robe3purple};
-	
-		//set names for buttons
-		robe1grey.name = "robe1grey"; robe1red.name = "robe1red";
-		robe1blue.name = "robe1blue"; robe1green.name = "robe1green";
-		robe1orange.name = "robe1orange"; robe1purple.name = "robe1purple";
-		robe2grey.name = "robe2grey"; robe2red.name = "robe2red";
-		robe2blue.name = "robe2blue"; robe2green.name = "robe2green";
-		robe2orange.name = "robe2orange"; robe2purple.name = "robe2purple";
-		robe3grey.name = "robe3grey"; robe3red.name = "robe3red";
-		robe3blue.name = "robe3blue"; robe3green.name = "robe3green";
-		robe3orange.name = "robe3orange"; robe3purple.name = "robe3purple";
-		
-		//go through buttons checking for purchase flags
-		foreach(Button button in buttons){
-			if(PlayerPrefs.GetInt(button.name, 0) == 1){
-				//the item is purchased, set interactable to false
-				button.interactable = false;
-			}
-		}
+		//make sure all items are updated
+		updateItems();
 		
         //listeners for all buttons
 		robe1grey.onClick.AddListener(() => buyItem("robe1grey", robe1price, robe1grey));
@@ -87,5 +70,36 @@ public class RobeShopScript : MonoBehaviour
 		PlayerPrefs.SetInt("PlayerPoints", updatedPoints);
 		//set item flag to purchased (1)
 		PlayerPrefs.SetInt(id, 1);
+		//update items
+		updateItems();
+	}
+	
+	//update items function
+	void updateItems(){
+		//array of buttons
+		Button[] buttons = {robe1grey, robe1red, robe1blue, robe1green, robe1orange, robe1purple,
+		robe2grey, robe2red, robe2blue, robe2green, robe2orange, robe2purple,
+		robe3grey, robe3red, robe3blue, robe3green, robe3orange, robe3purple};
+	
+		//set names for buttons
+		robe1grey.name = "robe1grey"; robe1red.name = "robe1red";
+		robe1blue.name = "robe1blue"; robe1green.name = "robe1green";
+		robe1orange.name = "robe1orange"; robe1purple.name = "robe1purple";
+		robe2grey.name = "robe2grey"; robe2red.name = "robe2red";
+		robe2blue.name = "robe2blue"; robe2green.name = "robe2green";
+		robe2orange.name = "robe2orange"; robe2purple.name = "robe2purple";
+		robe3grey.name = "robe3grey"; robe3red.name = "robe3red";
+		robe3blue.name = "robe3blue"; robe3green.name = "robe3green";
+		robe3orange.name = "robe3orange"; robe3purple.name = "robe3purple";
+		
+		//go through buttons checking for purchase flags
+		foreach(Button button in buttons){
+			if(PlayerPrefs.GetInt(button.name, 0) == 1){
+				//the item is purchased, set interactable to false
+				button.interactable = false;
+				//set image to sold out
+				button.GetComponent<Image>().sprite = sold_out;
+			}
+		}
 	}
 }

@@ -1453,6 +1453,7 @@ MonoBehaviour:
   hat1price: 25
   hat2price: 50
   hat3price: 100
+  sold_out: {fileID: 21300000, guid: 08bd12cea0cc6ce479d796305da77f4c, type: 3}
 --- !u!1 &804355590
 GameObject:
   m_ObjectHideFlags: 0
