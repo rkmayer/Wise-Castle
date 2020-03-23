@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 16534
+  controlID: 1430
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 16535
+  controlID: 1408
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 16536
+  controlID: 1409
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -213,14 +213,14 @@ MonoBehaviour:
     height: 530
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,9 +392,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8cd8ffffaed9ffffa4daffff00dbfffff0dbffffbadfffff06e3ffff10e3ffff58e3ffffdae7fffff4e7ffff8eedffffecf1ffff22f2ffffa4f3ffffdaf3ffff80f4fffff6f5ffff84f6ffffc4f6ffff1ef7ffff28f7ffff4af8ffff72f9ffffbefaffffd8faffffe2faffff6cfbffff3e3a00001c4e0000c24e0000645100000a520000f65500009c56000026650000cc6500000e660000b46600001e6a0000066d000086bf000068c0000098c1000010c20000c4d800006ad9000030f00000
+      m_SelectedIDs: 6e730000
+      m_LastClickedID: 29550
+      m_ExpandedIDs: 56f6ffff60f7fffff6f8ffff6cfbffffa8580000785900007c5a0000de5a00000673000052730000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -454,9 +454,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.13496213, y: 0.1300562, z: 144.11914}
+    m_Target: {x: 1308.9767, y: 380.06927, z: 3526}
     speed: 2
-    m_Value: {x: -0.13496213, y: 0.1300562, z: 144.11914}
+    m_Value: {x: 1308.9767, y: 380.06927, z: 3526}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -506,9 +506,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.55451
+    m_Target: 1863.4015
     speed: 2
-    m_Value: 11.55451
+    m_Value: 1783.1593
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -662,11 +662,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scenes/Game Scenes
   m_ViewMode: 1
   m_StartGridSize: 87
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scenes/Game Scenes
   m_LastFoldersGridSize: 87
   m_LastProjectPath: C:\Users\Ryan\Documents\School Work 2019-2020\Adv. Game Programming
     Project\Wise-Castle-V2\Wise-Castle-V2
@@ -674,9 +674,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66350000
-    m_LastClickedID: 13670
-    m_ExpandedIDs: 0000000056350000583500005a3500005c3500005e35000060350000623500006435000066350000683500006a350000
+    m_SelectedIDs: 90350000
+    m_LastClickedID: 13712
+    m_ExpandedIDs: 000000005a3500005c3500005e35000060350000623500006435000066350000683500006a3500006c3500006e350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -704,7 +704,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056350000583500005a3500005c3500005e35000060350000623500006435000066350000683500006a350000
+    m_ExpandedIDs: 000000005a3500005c3500005e35000060350000623500006435000066350000683500006a3500006c3500006e350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
