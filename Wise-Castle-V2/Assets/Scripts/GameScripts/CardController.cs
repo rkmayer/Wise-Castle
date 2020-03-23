@@ -53,10 +53,12 @@ public class CardController : MonoBehaviour
      
     private void OnMouseDown()
     {
-        if(!isFlipped)
-        {
-            _gameManager.AddCard(gameObject);
-            FlipCard();
+        if(_gameManager.canFlip) {
+            if(!isFlipped)
+            {
+                _gameManager.AddCard(gameObject);
+                FlipCard();
+            }
         }
     }
     
