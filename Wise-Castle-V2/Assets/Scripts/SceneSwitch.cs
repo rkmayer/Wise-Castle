@@ -16,7 +16,6 @@ public class SceneSwitch : MonoBehaviour
 			//load main scene
 			SceneManager.LoadScene("main");
 		}
-		Debug.Log("firstRun is now" + PlayerPrefs.GetInt("firstRun"));
 	}
 	
 	public void LoadTutorialFirstRun(){
