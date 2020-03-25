@@ -21,7 +21,26 @@ public class DifficultyScript : MonoBehaviour
 	[SerializeField] Button easyBtn, normalBtn, hardBtn;
 	
 	public void Start(){
-		
+		switch(PlayerPrefs.GetInt("Difficulty", 0)){
+			case(0):
+			//easy
+			easyBtn.interactable = false;
+			normalBtn.interactable = true;
+			hardBtn.interactable = true;
+			break;
+			case(1):
+			//normal
+			easyBtn.interactable = true;
+			normalBtn.interactable = false;
+			hardBtn.interactable = true;
+			break;
+			case(2):
+			//hard
+			easyBtn.interactable = true;
+			normalBtn.interactable = true;
+			hardBtn.interactable = false;
+			break;
+		}
 	}
 	
 	public void DifficultySetEasy(){

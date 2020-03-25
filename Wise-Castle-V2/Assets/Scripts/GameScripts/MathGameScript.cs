@@ -199,21 +199,63 @@ public class MathGameScript : MonoBehaviour
 	
 	//generate question
 	public void generateQuestion(){
+		//difficulty
+		int difficulty = PlayerPrefs.GetInt("Difficulty", 0);
+		
 		//randomly assign one block to be blank
 		blockToEnter = Random.Range(0,4);
 		
 		//randomly choose an operator
-		operatorUsed = Random.Range(0,4);
+		switch(difficulty){
+			case(0):
+			//easy - only addition and subtraction
+			operatorUsed = Random.Range(0,2);
+			break;
+			case(1):
+			//normal - multiplication added
+			operatorUsed = Random.Range(0,3);
+			break;
+			case(2):
+			//hard - division added
+			operatorUsed = Random.Range(0,4);
+			break;
+		}
+		
+		//for number ranges
+		int maxNum = 13, maxAddNum = 13, maxMultNum = 13;
+		//maxNum is the highest number (+1) chosen first
+		//maxAddNum is highest number (+1) added to first number
+		//maxMultNum similar, but for multiplication
+		//NOTE: subtraction and division must be accounted for per basis
+		switch(difficulty){
+			case(0):
+			//easy
+			maxNum = 5;
+			maxAddNum = 6;
+			break;
+			case(1):
+			//normal
+			maxNum = 8;
+			maxAddNum = 9;
+			maxMultNum = 6;
+			break;
+			case(2):
+			//hard
+			maxNum = 13;
+			maxAddNum = 13;
+			maxMultNum = 13;
+			break;
+		}
 		
 		//generate question...
 		if(blockToEnter == 0){
 			//...with 1st number blank
-			num2 = Random.Range(1,13);
+			num2 = Random.Range(1,maxNum);
 			switch(operatorUsed){
 				case(0):
 				//addition
 				math_operator = '+';
-				num1 = Random.Range(1,13);
+				num1 = Random.Range(1,maxAddNum);
 				answer = num1 + num2;
 				questionText.text = "? " + math_operator + " " + num2 + " = " + answer;
 				break;
@@ -235,19 +277,19 @@ public class MathGameScript : MonoBehaviour
 				case(3):
 				//multiplication
 				math_operator = 'x';
-				num1 = Random.Range(0, 13);
+				num1 = Random.Range(0, maxMultNum);
 				answer = num1 * num2;
 				questionText.text = "? " + math_operator + " " + num2 + " = " + answer;
 				break;
 			}
 		}else if(blockToEnter == 1){
 			//...with 2nd number blank
-			num1 = Random.Range(2,13);
+			num1 = Random.Range(2,maxNum);
 			switch(operatorUsed){
 				case(0):
 				//addition
 				math_operator = '+';
-				num2 = Random.Range(0,13);
+				num2 = Random.Range(0,maxAddNum);
 				answer = num1 + num2;
 				questionText.text = num1 + " " + math_operator + " ?" + " = " + answer;
 				break;
@@ -268,19 +310,19 @@ public class MathGameScript : MonoBehaviour
 				case(3):
 				//multiplication
 				math_operator = 'x';
-				num2 = Random.Range(0, 13);
+				num2 = Random.Range(0, maxMultNum);
 				answer = num1 * num2;
 				questionText.text = num1 + " " + math_operator + " ?" + " = " + answer;
 				break;
 			}
 		}else if(blockToEnter == 2){
 			//...with operator blank
-			num1 = Random.Range(2, 13);
+			num1 = Random.Range(2, maxNum);
 			switch(operatorUsed){
 				case(0):
 				//addition
 				math_operator = '+';
-				num2 = Random.Range(0,13);
+				num2 = Random.Range(0,maxAddNum);
 				answer = num1 + num2;
 				questionText.text = num1 + " ? " + num2 + " = " + answer;
 				break;
@@ -301,19 +343,19 @@ public class MathGameScript : MonoBehaviour
 				case(3):
 				//multiplication
 				math_operator = 'x';
-				num2 = Random.Range(0, 13);
+				num2 = Random.Range(0, maxMultNum);
 				answer = num1 * num2;
 				questionText.text = num1 + " ? " + num2 + " = " + answer;
 				break;
 			}
 		}else{
 			//...with answer blank
-			num1 = Random.Range(2, 13);
+			num1 = Random.Range(2, maxNum);
 			switch(operatorUsed){
 				case(0):
 				//addition
 				math_operator = '+';
-				num2 = Random.Range(0,13);
+				num2 = Random.Range(0,maxAddNum);
 				answer = num1 + num2;
 				questionText.text = num1 + " " + math_operator + " " + num2 + " = ?";
 				break;
@@ -334,7 +376,7 @@ public class MathGameScript : MonoBehaviour
 				case(3):
 				//multiplication
 				math_operator = 'x';
-				num2 = Random.Range(0, 13);
+				num2 = Random.Range(0, maxMultNum);
 				answer = num1 * num2;
 				questionText.text = num1 + " " + math_operator + " " + num2 + " = ?";
 				break;
