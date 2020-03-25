@@ -41,9 +41,6 @@ public class EnglishGameController : MonoBehaviour
 	string[] words;
 	//word chosen to guess
 	string wordChosen;
-	//limits of word size
-	[SerializeField] int minWordLength;
-	[SerializeField] int maxWordLength;
 	//points
 	int pointsEarned = 0;
 	int rewardPoints = 15;
@@ -173,6 +170,27 @@ public class EnglishGameController : MonoBehaviour
 	//choose a word to guess
 	void chooseWord(string[] words){
 		bool chosen = false;
+		int minWordLength = 3;
+		int maxWordLength = 12;
+		//choose min/max word length based on difficulty
+		switch(PlayerPrefs.GetInt("Difficulty", 0)){
+			case(0):
+			//easy - between 3 and 5 letters
+			minWordLength = 3;
+			maxWordLength = 5;
+			break;
+			case(1):
+			//normal - between 4 and 9 letters
+			minWordLength = 4;
+			maxWordLength = 9;
+			break;
+			case(2):
+			//hard - between 6 and 12 letters
+			minWordLength = 6;
+			maxWordLength = 12;
+			break;
+		}
+		
 		do{
 			//get random word
 			int randWordIndex = Random.Range(0,words.Length);
