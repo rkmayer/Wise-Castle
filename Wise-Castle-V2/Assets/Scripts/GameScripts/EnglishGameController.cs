@@ -175,19 +175,19 @@ public class EnglishGameController : MonoBehaviour
 		//choose min/max word length based on difficulty
 		switch(PlayerPrefs.GetInt("Difficulty", 0)){
 			case(0):
-			//easy - between 3 and 5 letters
-			minWordLength = 3;
-			maxWordLength = 5;
+			//easy - between 5 and 10 letters
+			minWordLength = 5;
+			maxWordLength = 10;
 			break;
 			case(1):
-			//normal - between 4 and 9 letters
-			minWordLength = 4;
-			maxWordLength = 9;
+			//normal - between 5 and 13 letters
+			minWordLength = 5;
+			maxWordLength = 13;
 			break;
 			case(2):
-			//hard - between 6 and 12 letters
-			minWordLength = 6;
-			maxWordLength = 12;
+			//hard - between 3 and 13 letters
+			minWordLength = 3;
+			maxWordLength = 13;
 			break;
 		}
 		
