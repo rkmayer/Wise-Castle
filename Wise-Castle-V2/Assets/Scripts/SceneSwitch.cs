@@ -5,12 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
-	
 	public void LoadMainScene(){
 		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
-		SceneManager.LoadScene("main");
+		//check if first time running game
+		if(PlayerPrefs.GetInt("firstRun", 0) == 0){
+			//load tutorial scene
+			PlayerPrefs.SetInt("firstRun", 1);
+			SceneManager.LoadScene("tutorial_firstRun");
+		}else{
+			//load main scene
+			SceneManager.LoadScene("main");
+		}
+		Debug.Log("firstRun is now" + PlayerPrefs.GetInt("firstRun"));
 	}
 	
+	public void LoadTutorialFirstRun(){
+		SceneManager.LoadScene("tutorial_firstRun");
+	}
     public void LoadArtScene(){
 		SceneManager.LoadScene("art");
     }

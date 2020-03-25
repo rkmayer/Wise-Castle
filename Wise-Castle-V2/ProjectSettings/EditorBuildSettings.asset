@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Player Scenes/robe_inventory.unity
     guid: 9390ddee08479f04db0bfc2a99708085
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/tutorial_firstRun.unity
+    guid: d5f9e9a73f5812845b32ee37677b0073
   m_configObjects: {}

@@ -24,4 +24,7 @@ public class DebugScript : MonoBehaviour
 		PlayerPrefs.SetInt("PlayerRobe", 1);
 	}
 	
+	public void resetFirstRun(){
+		PlayerPrefs.SetInt("firstRun", 0);
+	}
 }
