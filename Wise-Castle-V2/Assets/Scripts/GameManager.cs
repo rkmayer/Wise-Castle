@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private Text timerText;
+    
     private float timeLeft = 60;
     private bool timerRun = true;
     
@@ -25,12 +26,15 @@ public class GameManager : MonoBehaviour
     private GameObject secondCard = null;
     private ArrayList cardArray = new ArrayList(); 
     
-    private int _cardsLeft = 12;
+    private int _cardsLeft = 0;
+    private int cardAmount = 0;
+    
     private bool _canFlip = true;
     private float _timeBetweenFlips = 0.75f;
     
     [SerializeField]
     private Text pairsText; 
+    
     private int pairsMade = 0; 
     
     [SerializeField]
@@ -44,6 +48,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Text endText;
     
+    //player difficulty setting 
+    int difficulty = 0;
+    
     //sounds
 	public AudioSource correctSound; //get a match
 	public AudioSource yaySound; //get all matches of a round 
@@ -51,6 +58,7 @@ public class GameManager : MonoBehaviour
     
     void Awake() //occurs before game starts
     {
+        GenerateSettings();
         finishBtn.onClick.AddListener(goBackToMain);
         endCanvas.SetActive(false);	
     }
@@ -85,6 +93,24 @@ public class GameManager : MonoBehaviour
         }
         
         pairsText.text = "Pairs: " + pairsMade;
+    }
+    
+    private void GenerateSettings()
+    {
+    //difficulty
+		difficulty = PlayerPrefs.GetInt("Difficulty", 0);
+        
+        switch(difficulty){
+            case 0:
+                cardAmount = 8; 
+                break;
+            case 1:
+            case 2:
+                cardAmount = 12;
+            break;
+        };
+        
+        _cardsLeft = cardAmount;
     }
     
     public bool canFlip
@@ -152,7 +178,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(_timeBetweenFlips);
         yaySound.Play();
         cardSpawner.GetComponent<CardSpawner>().SpawningCards();
-        cardsLeft = 12;
+        cardsLeft = cardAmount;
     }
 
     public int cardsLeft

@@ -19,14 +19,15 @@ public class CardSpawner : MonoBehaviour
     [SerializeField]
     private GameObject cardPrefab; 
     
-    private List<GameObject> _cardsToSpawn;//the cards to be spawned on screen 
-    private List<GameObject> _cardsAvailableToSpawn; //the complete list of all element cards 
-    private int cardsToSpawnCount;
+    private List<GameObject> _cardsToSpawn = null;//the cards to be spawned on screen 
+    private List<GameObject> _cardsAvailableToSpawn = null; //the complete list of all element cards 
+    private int cardsToSpawnCount = 0;
     
     [SerializeField]
     private Transform _startPoint;
-    private int rows = 3;
-    private int columns = 4;
+    
+    private int rows = 0;
+    private int columns = 0;
 
     private float _xDistance = 3;
     private float _yDistance = 2;
@@ -36,8 +37,12 @@ public class CardSpawner : MonoBehaviour
     [SerializeField]
     private TextAsset chemistryData;
     
+    //player difficulty setting 
+    int difficulty = 0;
+    
     void Awake () //done before the game starts
     {
+        GenerateSettings();
         _gameManager = FindObjectOfType<GameManager>();
         StartCoroutine(GenerateCards(cardPrefab)); //needs to be done first before spawning is allowed
     }
@@ -45,6 +50,26 @@ public class CardSpawner : MonoBehaviour
     void Start() //when the game starts 
     {
         SpawningCards();
+    }
+    
+    private void GenerateSettings()
+    {
+        //difficulty
+		difficulty = PlayerPrefs.GetInt("Difficulty", 0);
+        
+        switch(difficulty){
+            case 0:
+                rows = 2;
+                columns = 4;
+                break;
+            case 1:
+            case 2:
+                rows = 3; 
+                columns = 4;
+            break;
+        };
+        
+        cardsToSpawnCount = (rows * columns) / 2; 
     }
     
     private List<string> TextAssetToList(TextAsset ta)//transforms text asset to a list of strings  
@@ -58,7 +83,22 @@ public class CardSpawner : MonoBehaviour
         List<string> elementData; 
         _cardsAvailableToSpawn = new List<GameObject>(); 
         
-        for(int i = 0; i < elementList.Count; i++)
+        int goTo = 0;
+        
+        switch(difficulty)
+        {
+            case 0:
+                goTo = 30; 
+                break;
+            case 1:
+                goTo = 60;
+                break;
+            case 2:
+                goTo = elementList.Count;
+                break;
+        }
+        
+        for(int i = 0; i < goTo; i++)
         {
             elementData = elementList[i].Split(' ').ToList(); 
             GameObject clone = (GameObject)Instantiate(p);
@@ -97,9 +137,13 @@ public class CardSpawner : MonoBehaviour
         return genList; 
     }
     
-    void Spawn() //spawns the cards and displays them on screen 
+    private void Spawn() //spawns the cards and displays them on screen 
     {
-        cardsToSpawnCount = (rows * columns) / 2; 
+        if(_cardsAvailableToSpawn.Count < cardsToSpawnCount)
+        {
+            StartCoroutine(GenerateCards(cardPrefab)); 
+        }
+        
         List<GameObject> _cardsToSpawn = ChooseRandomCards(_cardsAvailableToSpawn, cardsToSpawnCount);
         
         for (int x = 0; x < columns; x++)
