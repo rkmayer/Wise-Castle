@@ -23,12 +23,14 @@ public class UpdateCharacterScript : MonoBehaviour
 		hat3black, hat3white, hat3red, hat3yellow, hat3green, hat3blue, hat3pink, hat3purple,
 		robe1grey, robe1red, robe1blue, robe1green, robe1orange, robe1purple,
 		robe2grey, robe2red, robe2blue, robe2green, robe2orange, robe2purple,
-		robe3grey, robe3red, robe3blue, robe3green, robe3orange, robe3purple;
+		robe3grey, robe3red, robe3blue, robe3green, robe3orange, robe3purple,
+		bunny1, bunny2, bunny3, bunny4, bunny5, bunny6,
+		cat1, cat2, cat3, cat4, cat5, cat6,
+		turtle1, turtle2, turtle3, turtle4, turtle5, turtle6;
 	
 	//character slots
 	public GameObject sprite_body, sprite_eyes, sprite_hair, sprite_mouth,
-					sprite_hat, sprite_robe;
-					//sprite_pet
+					sprite_hat, sprite_robe, sprite_pet;
 	
     // Start is called before the first frame update
     void Start()
@@ -41,7 +43,7 @@ public class UpdateCharacterScript : MonoBehaviour
 		
 		int hat_id = PlayerPrefs.GetInt("PlayerHat", 1);
 		int robe_id = PlayerPrefs.GetInt("PlayerRobe", 1);
-		//int pet_id = PlayerPrefs.GetInt("PlayerAnimal", 1);
+		int pet_id = PlayerPrefs.GetInt("PlayerAnimal", 1);
 		
 		//body
 		switch(body_id){
@@ -230,5 +232,61 @@ public class UpdateCharacterScript : MonoBehaviour
 		}
 		
 		//pet
+		switch(pet_id){
+			case(1):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = bunny1;
+			break;
+			case(2):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = bunny2;
+			break;
+			case(3):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = bunny3;
+			break;
+			case(4):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = bunny4;
+			break;
+			case(5):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = bunny5;
+			break;
+			case(6):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = bunny6;
+			break;
+			case(7):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = cat1;
+			break;
+			case(8):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = cat2;
+			break;
+			case(9):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = cat3;
+			break;
+			case(10):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = cat4;
+			break;
+			case(11):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = cat5;
+			break;
+			case(12):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = cat6;
+			break;
+			case(13):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = turtle1;
+			break;
+			case(14):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = turtle2;
+			break;
+			case(15):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = turtle3;
+			break;
+			case(16):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = turtle4;
+			break;
+			case(17):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = turtle5;
+			break;
+			case(18):
+			sprite_pet.GetComponent<SpriteRenderer>().sprite = turtle6;
+			break;
+		}
     }
 }

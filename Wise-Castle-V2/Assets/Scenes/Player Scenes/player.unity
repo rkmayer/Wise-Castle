@@ -938,12 +938,31 @@ MonoBehaviour:
   robe3green: {fileID: 21300000, guid: c9a8e5f8985d5784d95fff2132519ac1, type: 3}
   robe3orange: {fileID: 21300000, guid: 607c299db9f456249883cb72def6decb, type: 3}
   robe3purple: {fileID: 21300000, guid: 0c12bfca59f85664794119e9852c7780, type: 3}
+  bunny1: {fileID: 21300000, guid: e462b4e8df26e481c964b5440149a153, type: 3}
+  bunny2: {fileID: 21300000, guid: 2bd520bfbe72148228b2514a080e923b, type: 3}
+  bunny3: {fileID: 21300000, guid: 6ccaa00dccb8642f5bb4355462cf5065, type: 3}
+  bunny4: {fileID: 21300000, guid: e4c0c21ad6d6f4267915bb7121f0c284, type: 3}
+  bunny5: {fileID: 21300000, guid: 083df3099b1fc4d00b27ad6271a1a843, type: 3}
+  bunny6: {fileID: 21300000, guid: 45ea100dd75824bf2a9b517a5f389b7c, type: 3}
+  cat1: {fileID: 21300000, guid: fca197f1248bc4466a11b26ff943c355, type: 3}
+  cat2: {fileID: 21300000, guid: f4d472626c12340f4a887cc029ab0715, type: 3}
+  cat3: {fileID: 21300000, guid: 1470e3b718b894cb18932e29ace338cd, type: 3}
+  cat4: {fileID: 21300000, guid: 77d7531725217478eac48f1913c46233, type: 3}
+  cat5: {fileID: 21300000, guid: fee30e2a5a94448dbb7c8c064cf7bba2, type: 3}
+  cat6: {fileID: 21300000, guid: ae561a1e121444c098afd3ffdec8fc29, type: 3}
+  turtle1: {fileID: 21300000, guid: bda75327645e34416bde07b157d2ba5b, type: 3}
+  turtle2: {fileID: 21300000, guid: 093e9187b28f7426883f155ebc56b2a7, type: 3}
+  turtle3: {fileID: 21300000, guid: 3973a91f834424b6f8fe99c2c61bf99d, type: 3}
+  turtle4: {fileID: 21300000, guid: 52221bedfd4684bbbacc94ca245fb767, type: 3}
+  turtle5: {fileID: 21300000, guid: 86d3330c052c2481c9f1f7bfc63a5609, type: 3}
+  turtle6: {fileID: 21300000, guid: 89800ea90af24491da3a69d89302a842, type: 3}
   sprite_body: {fileID: 323360075}
   sprite_eyes: {fileID: 1880539650}
   sprite_hair: {fileID: 563897072}
   sprite_mouth: {fileID: 1563984757}
   sprite_hat: {fileID: 1065488793}
   sprite_robe: {fileID: 955726137}
+  sprite_pet: {fileID: 1150851810}
 --- !u!114 &570008936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,7 +1334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 10}
+  m_AnchoredPosition: {x: 177.9, y: -146.9}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1150851812

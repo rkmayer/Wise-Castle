@@ -8,10 +8,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//robe1grey, robe1red, robe1blue, robe1green, robe1orange, robe1purple,
-		//robe2grey, robe2red, robe2blue, robe2green, robe2orange, robe2purple,
-		//robe3grey, robe3red, robe3blue, robe3green, robe3orange, robe3purple
-
 public class EquipItemScript : MonoBehaviour
 {
     public void updateCharacter(string id){
@@ -89,6 +85,7 @@ public class EquipItemScript : MonoBehaviour
 			case("hat3purple"):
 			PlayerPrefs.SetInt("PlayerHat", 24);
 			break;
+			
 			//robes
 			case("robe1grey"):
 			PlayerPrefs.SetInt("PlayerRobe", 1);
@@ -143,6 +140,62 @@ public class EquipItemScript : MonoBehaviour
 			break;
 			case("robe3purple"):
 			PlayerPrefs.SetInt("PlayerRobe", 18);
+			break;
+			
+			//pets
+			case("bunny1"):
+			PlayerPrefs.SetInt("PlayerAnimal", 1);
+			break;
+			case("bunny2"):
+			PlayerPrefs.SetInt("PlayerAnimal", 2);
+			break;
+			case("bunny3"):
+			PlayerPrefs.SetInt("PlayerAnimal", 3);
+			break;
+			case("bunny4"):
+			PlayerPrefs.SetInt("PlayerAnimal", 4);
+			break;
+			case("bunny5"):
+			PlayerPrefs.SetInt("PlayerAnimal", 5);
+			break;
+			case("bunny6"):
+			PlayerPrefs.SetInt("PlayerAnimal", 6);
+			break;
+			case("cat1"):
+			PlayerPrefs.SetInt("PlayerAnimal", 7);
+			break;
+			case("cat2"):
+			PlayerPrefs.SetInt("PlayerAnimal", 8);
+			break;
+			case("cat3"):
+			PlayerPrefs.SetInt("PlayerAnimal", 9);
+			break;
+			case("cat4"):
+			PlayerPrefs.SetInt("PlayerAnimal", 10);
+			break;
+			case("cat5"):
+			PlayerPrefs.SetInt("PlayerAnimal", 11);
+			break;
+			case("cat6"):
+			PlayerPrefs.SetInt("PlayerAnimal", 12);
+			break;
+			case("turtle1"):
+			PlayerPrefs.SetInt("PlayerAnimal", 13);
+			break;
+			case("turtle2"):
+			PlayerPrefs.SetInt("PlayerAnimal", 14);
+			break;
+			case("turtle3"):
+			PlayerPrefs.SetInt("PlayerAnimal", 15);
+			break;
+			case("turtle4"):
+			PlayerPrefs.SetInt("PlayerAnimal", 16);
+			break;
+			case("turtle5"):
+			PlayerPrefs.SetInt("PlayerAnimal", 17);
+			break;
+			case("turtle6"):
+			PlayerPrefs.SetInt("PlayerAnimal", 18);
 			break;
 		}
 	}
