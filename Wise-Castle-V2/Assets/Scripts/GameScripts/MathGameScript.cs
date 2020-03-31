@@ -123,7 +123,21 @@ public class MathGameScript : MonoBehaviour
 	//question was answered correctly
 	public void pass(){
 		//award points
-		pointsEarned = pointsEarned + 5;
+		switch(PlayerPrefs.GetInt("Difficulty", 0)){
+			//easy - 0
+			case(0):
+			pointsEarned = pointsEarned + 5;
+			break;
+			//normal - 1
+			case(1):
+			pointsEarned = pointsEarned + 10;
+			break;
+			//hard - 2
+			case(2):
+			pointsEarned = pointsEarned + 15;
+			break;
+		}
+		
 		//delete object
 		if(objectTouching.gameObject.tag == "delete"){
 			Destroy(objectTouching.gameObject);

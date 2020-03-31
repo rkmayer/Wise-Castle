@@ -149,7 +149,20 @@ public class EnglishGameController : MonoBehaviour
 	public void reloadScene(bool gameWin){
 		if(gameWin){
 			//reload from win state, save points
-			GameObject.FindGameObjectWithTag("Points").GetComponent<PointScript>().AddPoints(15);
+			switch(PlayerPrefs.GetInt("Difficulty", 0)){
+				//easy - 0
+				case(0):
+				GameObject.FindGameObjectWithTag("Points").GetComponent<PointScript>().AddPoints(15);
+				break;
+				//normal - 1
+				case(1):
+				GameObject.FindGameObjectWithTag("Points").GetComponent<PointScript>().AddPoints(20);
+				break;
+				//hard - 2
+				case(2):
+				GameObject.FindGameObjectWithTag("Points").GetComponent<PointScript>().AddPoints(25);
+				break;
+			}
 		}
 		gameWin = false;
 		SceneManager.LoadScene("english");
