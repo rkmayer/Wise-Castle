@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
-	public void Start(){
-		Screen.fullScreen = false; 
-	}
-	
 	public void LoadMainScene(){
 		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
 		//check if first time running game
