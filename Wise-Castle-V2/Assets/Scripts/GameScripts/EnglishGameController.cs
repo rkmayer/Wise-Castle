@@ -72,7 +72,7 @@ public class EnglishGameController : MonoBehaviour
 		leg_right.enabled = false;
 		
 		//get finish UI
-		finish_ui = this.gameObject.transform.GetChild(0).GetChild(8).gameObject;
+		finish_ui = this.gameObject.transform.GetChild(0).GetChild(2).gameObject;
 		finish_group = finish_ui.GetComponent<CanvasGroup>();
 		//start game with finish ui hidden
 		//set alpha to transparent and do not allow interactions
