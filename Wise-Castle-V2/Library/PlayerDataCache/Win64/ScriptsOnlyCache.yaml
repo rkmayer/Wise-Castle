@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - RobeShopScript
     - SceneSwitch
     - UpdateCharacterScript
+    - firstRunScript
     - menuManager
     - wolfAnimateScript
     Unity.2D.Tilemap.Editor.dll:
@@ -1243,6 +1244,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12924}
     - Class: 114
       Script: {instanceID: 13138}
+    - Class: 114
+      Script: {instanceID: 44450}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1810,6 +1813,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 29d3ad6a448822cc8642da26d558ac30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: firstRunScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/title.unity
@@ -1835,4 +1844,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Player Scenes/robe_inventory.unity
   - Assets/Scenes/Tutorial Scenes/tutorial_firstRun.unity
   playerPath: C:/Users/Ryan/Documents/School Work 2019-2020/Adv. Game Programming
-    Project/Builds/Test2/Wise-Castle-V2.exe
+    Project/Builds/Test3/Wise-Castle-V2.exe
