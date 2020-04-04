@@ -9,6 +9,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using System.IO;
 
 public class EnglishGameController : MonoBehaviour
 {
@@ -37,13 +38,14 @@ public class EnglishGameController : MonoBehaviour
 	[SerializeField] Image leg_right;
 	int part_count = 0;
 	
+	public string word = "";
 	//array of words from text file
+	List<string> wordsList = new List<string>();
 	string[] words;
 	//word chosen to guess
 	string wordChosen;
 	//points
 	int pointsEarned = 0;
-	int rewardPoints = 15;
 	//win-lose state
 	bool gameWin = false;
 	
@@ -111,7 +113,20 @@ public class EnglishGameController : MonoBehaviour
 		btn_no.onClick.AddListener(() => goBackToMain(gameWin)); //back to main menu
 		
 		//load words file
-		words = System.IO.File.ReadAllLines(@"Assets/Text Files/hangman_words.txt");
+		//words = System.IO.File.ReadAllLines(@"Assets/Text Files/hangman_words.txt");
+		//text file containing words
+		FileInfo wordsFile = new FileInfo("hangman_words.txt");
+		//streamreader to read words
+		StreamReader reader = wordsFile.OpenText();
+		
+		do{
+			word = reader.ReadLine();
+			wordsList.Add(word);
+		}while(word != null);
+		
+		//convert list to array
+		words = wordsList.ToArray();
+		
 		//choose a word to guess
 		chooseWord(words);
 		//show hidden word
