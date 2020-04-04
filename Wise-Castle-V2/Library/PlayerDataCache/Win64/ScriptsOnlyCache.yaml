@@ -1835,4 +1835,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Player Scenes/robe_inventory.unity
   - Assets/Scenes/Tutorial Scenes/tutorial_firstRun.unity
   playerPath: C:/Users/Ryan/Documents/School Work 2019-2020/Adv. Game Programming
-    Project/Builds/Test2Windowed/Wise-Castle-V2.exe
+    Project/Builds/Test2/Wise-Castle-V2.exe
