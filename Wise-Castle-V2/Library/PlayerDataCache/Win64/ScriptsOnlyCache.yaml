@@ -20,7 +20,7 @@ ScriptsOnlyBuild:
     - RobeShopScript
     - SceneSwitch
     - UpdateCharacterScript
-    - firstRunScript
+    - introScript
     - menuManager
     - wolfAnimateScript
     Unity.2D.Tilemap.Editor.dll:
@@ -1245,7 +1245,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 44450}
+      Script: {instanceID: 51390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1815,10 +1815,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 29d3ad6a448822cc8642da26d558ac30
+      Hash: 70cae9b70b72f7bdcd5a446dba27066a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: firstRunScript
+    className: introScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/title.unity
