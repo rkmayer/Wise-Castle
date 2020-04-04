@@ -7,6 +7,7 @@ public class SceneSwitch : MonoBehaviour
 {
 	public void LoadMainScene(){
 		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayConfirmSound();
+		GameObject.FindGameObjectWithTag("music").GetComponent<MusicScript>().PlayBGMusic();
 		SceneManager.LoadScene("main");
 	}
 	
