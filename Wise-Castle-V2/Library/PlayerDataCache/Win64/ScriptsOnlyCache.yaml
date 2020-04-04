@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - RobeShopScript
     - SceneSwitch
     - UpdateCharacterScript
+    - exitGameScript
     - introScript
     - menuManager
     - wolfAnimateScript
@@ -1116,6 +1117,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12752}
     - Class: 114
       Script: {instanceID: 13138}
+    - Class: 114
+      Script: {instanceID: 85742}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1819,6 +1822,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: introScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: exitGameScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/title.unity
@@ -1844,4 +1853,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Player Scenes/robe_inventory.unity
   - Assets/Scenes/Tutorial Scenes/tutorial_firstRun.unity
   playerPath: C:/Users/Ryan/Documents/School Work 2019-2020/Adv. Game Programming
-    Project/Builds/Test4/Wise-Castle-V2.exe
+    Project/Builds/WiseCastle_V1.0/Wise-Castle-V2.exe
