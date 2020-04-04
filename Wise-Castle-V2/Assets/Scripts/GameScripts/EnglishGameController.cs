@@ -115,7 +115,7 @@ public class EnglishGameController : MonoBehaviour
 		//load words file
 		//words = System.IO.File.ReadAllLines(@"Assets/Text Files/hangman_words.txt");
 		//text file containing words
-		FileInfo wordsFile = new FileInfo("hangman_words.txt");
+		FileInfo wordsFile = new FileInfo(@"Assets/Text Files/hangman_words.txt");
 		//streamreader to read words
 		StreamReader reader = wordsFile.OpenText();
 		
