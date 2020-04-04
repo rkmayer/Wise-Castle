@@ -26,6 +26,15 @@ public class DebugScript : MonoBehaviour
 		PlayerPrefs.SetInt("PlayerHat", 1);
 		PlayerPrefs.SetInt("PlayerRobe", 1);
 		PlayerPrefs.SetInt("PlayerAnimal", 1);
+		
+		//reset player body
+		PlayerPrefs.SetInt("PlayerBody", 1);
+		PlayerPrefs.SetInt("PlayerEyes", 1);
+		PlayerPrefs.SetInt("PlayerHair", 1);
+		PlayerPrefs.SetInt("PlayerMouth", 1);
+		
+		//reset player points
+		PlayerPrefs.SetInt("PlayerPoints", 0);
 	}
 	
 	public void resetFirstRun(){
