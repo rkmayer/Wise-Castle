@@ -38,10 +38,10 @@ public class EnglishGameController : MonoBehaviour
 	[SerializeField] Image leg_right;
 	int part_count = 0;
 	
-	public string word = "";
+	//text file
+	public TextAsset hangmanWordsFile;
 	//array of words from text file
-	List<string> wordsList = new List<string>();
-	string[] words;
+	string[] wordsArray;
 	//word chosen to guess
 	string wordChosen;
 	//points
@@ -112,23 +112,14 @@ public class EnglishGameController : MonoBehaviour
 		btn_yes.onClick.AddListener(() => reloadScene(gameWin)); //restart game
 		btn_no.onClick.AddListener(() => goBackToMain(gameWin)); //back to main menu
 		
-		//load words file
 		//words = System.IO.File.ReadAllLines(@"Assets/Text Files/hangman_words.txt");
-		//text file containing words
-		FileInfo wordsFile = new FileInfo(@"Assets/Text Files/hangman_words.txt");
-		//streamreader to read words
-		StreamReader reader = wordsFile.OpenText();
-		
-		do{
-			word = reader.ReadLine();
-			wordsList.Add(word);
-		}while(word != null);
-		
-		//convert list to array
-		words = wordsList.ToArray();
+		string wordsFileAsString = hangmanWordsFile.text;
+		List<string> wordsList = new List<string>();
+		wordsList.AddRange(wordsFileAsString.Split("\n"[0]));
+		wordsArray = wordsList.ToArray();
 		
 		//choose a word to guess
-		chooseWord(words);
+		chooseWord(wordsArray);
 		//show hidden word
 		showHiddenWord(wordChosen);
     }

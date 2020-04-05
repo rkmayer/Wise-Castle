@@ -160,6 +160,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -1710,7 +1712,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 47a96fa72eae767d76f64302ac788aef
+      Hash: bab4052676c4ba4ba3f3ac87ec1991eb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnglishGameController
@@ -1853,4 +1855,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Player Scenes/robe_inventory.unity
   - Assets/Scenes/Tutorial Scenes/tutorial_firstRun.unity
   playerPath: C:/Users/Ryan/Documents/School Work 2019-2020/Adv. Game Programming
-    Project/Builds/WiseCastle_V1.1/Wise-Castle-V2.exe
+    Project/Builds/Test5/Wise-Castle-V2.exe
