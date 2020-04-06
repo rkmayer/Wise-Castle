@@ -577,7 +577,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Test your artistic abilities by creating the given shape with various
-    blocks. \n\n[???]"
+    blocks. \n\nBring animals to life!"
 --- !u!222 &579818516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1003,13 +1003,13 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1944677675}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 27783799}
-        m_MethodName: LoadArtScene
+        m_MethodName: LoadArtSelectionScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

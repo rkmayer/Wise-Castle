@@ -14,8 +14,23 @@ public class SceneSwitch : MonoBehaviour
 	public void LoadTutorialFirstRun(){
 		SceneManager.LoadScene("tutorial_firstRun");
 	}
-    public void LoadArtScene(){
-		SceneManager.LoadScene("art");
+    public void LoadArtRabbitScene(){
+		SceneManager.LoadScene("art_rabbit");
+    }
+
+    public void LoadArtSwanScene()
+    {
+        SceneManager.LoadScene("art_swan");
+    }
+
+    public void LoadArtLionScene()
+    {
+        SceneManager.LoadScene("art_lion");
+    }
+
+    public void LoadArtSelectionScene()
+    {
+        SceneManager.LoadScene("art_shapeselect");
     }
 
     public void LoadEnglishScene(){

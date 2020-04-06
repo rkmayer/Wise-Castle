@@ -11,6 +11,40 @@ TagManager:
   - confirmSound
   - cancelSound
   - Points
+  - rabbitShape1
+  - rabbitShape2
+  - rabbitShape3
+  - rabbitShape4
+  - rabbitShape5
+  - rabbitShape6
+  - rabbitShape7
+  - scramble
+  - winmsg
+  - swanShape1
+  - swanShape2
+  - swanShape3
+  - swanShape4
+  - swanShape5
+  - swanShape6
+  - swanShape7
+  - winmsg2
+  - scramble2
+  - lionShape1
+  - lionShape2
+  - lionShape3
+  - lionShape4
+  - lionShape5
+  - lionShape6
+  - lionShape7
+  - lionShape8
+  - lionShape9
+  - lionShape10
+  - lionShape11
+  - lionShape12
+  - lionShape13
+  - lionShape14
+  - scramble3
+  - winmsg3
   layers:
   - Default
   - TransparentFX
